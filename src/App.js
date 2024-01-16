@@ -3,13 +3,15 @@ import ApiFetch from "./component/ApiFetch";
 import ApiAxios from "./component/ApiAxios";
 import "bootstrap/dist/css/bootstrap.min.css";
 import TempClassComp from "./component/TempClassComp";
+import CustomHookApi from "./component/CustomHookApi";
 
 function App() {
   return (
     <>
       {/* <ApiFetch /> */}
       {/* <ApiAxios /> */}
-      <TempClassComp />
+      {/* <TempClassComp /> */}
+      <CustomHookApi />
     </>
   );
 }
