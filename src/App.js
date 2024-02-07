@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import TempClassComp from "./component/TempClassComp";
 import CustomHookApi from "./component/CustomHookApi";
 import Counter from "./component/Counter";
+import DataProvider from "./context/countContext";
 
 function App() {
   return (
@@ -13,7 +14,9 @@ function App() {
       {/* <ApiAxios /> */}
       {/* <TempClassComp /> */}
       {/* <CustomHookApi /> */}
-      <Counter />
+      <DataProvider>
+        <Counter />
+      </DataProvider>
     </>
   );
 }
