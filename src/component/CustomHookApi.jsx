@@ -14,9 +14,10 @@ const CustomHookApi = () => {
           gridGap: 20,
         }}
       >
-        {data && data.map((p) => {
-          return <Card key={p.id} data={p} />;
-        })}
+        {data &&
+          data.map((p) => {
+            return <Card key={p.id} data={p} />;
+          })}
       </div>
     </>
   );

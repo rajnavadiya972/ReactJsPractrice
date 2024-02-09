@@ -39,11 +39,10 @@ function ApiAxios() {
         setPost(data.data);
         setIsLoaded(true);
       };
-      fetchData()
+      fetchData();
     } catch (error) {
       setLoadOrError("Error");
     }
-
   }, []);
 
   return (

@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export class TempClassComp extends Component {
   constructor() {
     super();
-    this.state={color:'red'}
+    this.state = { color: "red" };
   }
 
   render() {

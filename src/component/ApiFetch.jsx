@@ -39,11 +39,11 @@ function ApiFetch() {
             setIsLoaded(true);
           },
           (err) => {
-            setLoadOrError("Error1");
-          }
+            setLoadOrError("Error1", err);
+          },
         )
         .catch((err) => {
-          setLoadOrError("Error2");
+          setLoadOrError("Error2", err);
         });
     };
     fetchData();
